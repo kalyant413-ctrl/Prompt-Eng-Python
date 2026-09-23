@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="762C51F1-74C9-76FA-B6C7-C0D80F8A93E3" name="Orders">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:39 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_Id" id="741CF349-1D7C-863C-8126-9A7E6CD3E3BF">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Status" id="BF8FEE86-553A-F1D5-E573-89C9A09E70BC">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_Date" id="447DB7FA-042C-47D1-96B6-17C7EDC3065A">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Required_Date" id="C01109CB-C259-018C-724F-DD306588CC3D">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Shipped_Date" id="9CED73D4-864B-30F7-68EB-13227E8D61D2">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Id" id="4377A786-AEEA-83E0-8251-026DDB81B3FA">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A271668C-345E-0AF6-D2C9-AB7440430506" referredColumn="EFC95E26-3D7D-4108-111F-69948204F6E7"/>
+</associations>
+</Column>
+<Column name="Store_Id" id="08C638F4-DC75-F421-1EB7-6186E6ED13E2">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 10:00:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C829339-F62D-8209-E0D5-26D2803FB470" referredColumn="7D8F7109-55C3-726A-98D7-427679E2F4B6"/>
+</associations>
+</Column>
+<Column name="Staff_Id" id="26D92938-5A73-66D3-8A87-8FD9E5788ACD">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB549A9F-6B11-4172-19B4-683199470187" referredColumn="568106B2-171F-F007-D9C3-E2DFC6CC7E66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DE7CE50-3838-8F4D-4345-3FDFEB990B84" name="Orders_PK">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741CF349-1D7C-863C-8126-9A7E6CD3E3BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E40AE9E-7B70-8BC3-DBFB-0BDAB8A53D1C" name="Or_Cu_Fk">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4377A786-AEEA-83E0-8251-026DDB81B3FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F9454B9-5B28-8FA5-2F12-E5F2D4C70DD2" name="Or_St_Fk">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:42:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26D92938-5A73-66D3-8A87-8FD9E5788ACD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034B7580-A6E8-84B5-6450-0E6C667A0E2C" name="Orders_Store_FK">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 10:01:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08C638F4-DC75-F421-1EB7-6186E6ED13E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

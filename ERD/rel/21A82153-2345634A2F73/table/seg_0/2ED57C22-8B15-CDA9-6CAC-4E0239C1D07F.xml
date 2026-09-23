@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ED57C22-8B15-CDA9-6CAC-4E0239C1D07F" name="Store">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:57:20 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Store_Id" id="7D8F7109-55C3-726A-98D7-427679E2F4B6">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:58:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Store_Name" id="B6A65B5D-75A0-E45F-AC6A-59A6D54AA019">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:58:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDA3726A-143B-B9A0-BE55-F0DCE80B39E0" name="Store_PK">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:58:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D8F7109-55C3-726A-98D7-427679E2F4B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

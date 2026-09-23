@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B63594C-B25B-3C65-5CC0-95ACC9D12BB3" name="Customers">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:22:35 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_Id" id="EFC95E26-3D7D-4108-111F-69948204F6E7">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Name" id="55EBFA94-002F-DE17-1E64-1081E10A782C">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="29762186-8487-1AF7-138B-8952EF0AD5E6">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="8C0BDDC7-5745-5F94-683A-C0C686FB4233">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="F8628E66-5375-1DEA-89B8-3B089BF3BADB">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E57828C7-4719-057A-4568-B9005BDDF3AC" name="Customers_PK">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC95E26-3D7D-4108-111F-69948204F6E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34B5691B-E783-AF84-7F34-099899D0BF6C" name="C_Email_UN">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C0BDDC7-5745-5F94-683A-C0C686FB4233"/>
+<colUsage columnID="29762186-8487-1AF7-138B-8952EF0AD5E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4A9EE24-7356-A18D-6D0E-28DCF88F5D45" name="C_Phone_UN">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:30:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C0BDDC7-5745-5F94-683A-C0C686FB4233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

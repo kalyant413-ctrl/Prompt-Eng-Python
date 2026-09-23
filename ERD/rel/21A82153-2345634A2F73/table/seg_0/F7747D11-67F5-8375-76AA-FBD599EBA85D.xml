@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7747D11-67F5-8375-76AA-FBD599EBA85D" name="Staffs">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:31:08 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staff_Id" id="568106B2-171F-F007-D9C3-E2DFC6CC7E66">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_Name" id="6F6A8DD9-F51C-8AFB-D002-FD42FF385A94">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_Type" id="E4E75ED9-D0FF-9692-10C8-247DC67B6844">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_Position" id="9D6AEF1F-506F-3EBB-63DF-DE3B22953A19">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_Email" id="F4D73410-E16B-D772-64B4-C8596A5C6481">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 BYTE</dataTypeSize>
+<ownDataTypeParameters>35 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_Id" id="E4E4EFB4-55B7-29B6-44A7-100A6DC492EF">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 10:01:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80BE9D9A-954F-F9D4-F721-A850924C0ECB" referredColumn="568106B2-171F-F007-D9C3-E2DFC6CC7E66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A86F1D3-30C1-60A6-F42E-C3FCF460AAEA" name="Staffs_PK">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 09:34:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="568106B2-171F-F007-D9C3-E2DFC6CC7E66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A049DBE8-0833-1615-46F4-43E60A2C5123" name="Staffs_Staffs_FK">
+<createdBy>kalyanthapa</createdBy>
+<createdTime>2026-09-23 10:02:40 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4E4EFB4-55B7-29B6-44A7-100A6DC492EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
